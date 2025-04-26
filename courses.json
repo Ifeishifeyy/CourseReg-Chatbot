@@ -279,9 +279,9 @@
                 "semester": "Alpha",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["CST111"],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "This course build on the concepts learned in CST111."
             },
             {
                 "code": "GST121",
@@ -290,9 +290,9 @@
                 "semester": "Alpha",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["GST111"],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "Advanced fundamentals of effective communication in English, including writing, speaking, and presentation skills."
             },
             {   "code": "GST122",
                 "title": "Communication in French",
@@ -302,7 +302,7 @@
                 "credits": 2,
                 "prerequisites": [],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "This course focuses on basic conversation and writing in French."
             },
             {   "code": "EDS121",
                 "title": "Entrepreneurship Development Studies II",
@@ -477,7 +477,7 @@
                 "credits": 2,
                 "prerequisites": [],
                 "career_relevance": [],
-                "description": "This course covers computer networking concepts."
+                "description": "This course covers history of philosophy covering critical thinking and ethical reasoning."
             },
             {
                 "code": "DLD111",
@@ -827,7 +827,7 @@
                 "semester": "Alpha",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["GST211"],
                 "career_relevance": [],
                 "description": "This course is the continuation of GST211 covering scientific revolution and philosophical debates."
             },
@@ -1410,9 +1410,9 @@
                 "semester": "Omega",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["CST111"],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "This course build on the concepts learned in CST111."
             },
             {
                 "code": "GST121",
@@ -1421,9 +1421,9 @@
                 "semester": "Omega",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["GST111"],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "Advanced fundamentals of effective communication in English, including writing, speaking, and presentation skills."
             },
             {   "code": "GST122",
                 "title": "Communication in French",
@@ -1433,7 +1433,7 @@
                 "credits": 2,
                 "prerequisites": [],
                 "career_relevance": [],
-                "description": "This course introduces the fundamentals of computer science."
+                "description": "This course focuses on basic conversation and writing in French."
             },
             {   "code": "EDS121",
                 "title": "Entrepreneurship Development Studies II",
@@ -1564,7 +1564,7 @@
                 "credits": 2,
                 "prerequisites": [],
                 "career_relevance": [],
-                "description": "This course covers computer networking concepts."
+                "description": "This course covers history of philosophy covering critical thinking and ethical reasoning."
             },
             {
                 "code": "DLD111",
@@ -1871,9 +1871,9 @@
                 "semester": "Alpha",
                 "type": "U",
                 "credits": 2,
-                "prerequisites": [],
+                "prerequisites": ["GST211"],
                 "career_relevance": [],
-                "description": "This course covers web development technologies such as HTML, CSS, and JavaScript."
+                "description": "This course is the continuation of GST211 covering scientific revolution and philosophical debates."
             },
             {
                 "code": "CIT310",
@@ -2349,7 +2349,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course introduces the fundamentals of computer science."
+                    "description": "Introduction to library resources, study skills, and ICT tools for academic success and professional development."
                 },
                 {
                     "code": "GST111",
@@ -2360,7 +2360,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course introduces the fundamentals of computer science."
+                    "description": "Fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {
                     "code": "EDS111",
@@ -2512,9 +2512,9 @@
                     "semester": "Omega",
                     "type": "U",
                     "credits": 2,
-                    "prerequisites": [],
+                    "prerequisites": ["CST111"],
                     "career_relevance": [],
-                    "description": "This course introduces the fundamentals of computer science."
+                    "description": "This course build on the concepts learned in CST111."
                 },
                 {
                     "code": "GST121",
@@ -2523,9 +2523,9 @@
                     "semester": " Omega",
                     "type": "U",
                     "credits": 2,
-                    "prerequisites": [],
+                    "prerequisites": ["GST111"],
                     "career_relevance": [],
-                    "description": "This course introduces the fundamentals of computer science."
+                    "description": "Advanced fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {   "code": "GST122",
                     "title": "Communication in French",
@@ -2535,7 +2535,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course introduces the fundamentals of computer science."
+                    "description": "This course focuses on basic conversation and writing in French."
                 },
                 {   "code": "EDS121",
                     "title": "Entrepreneurship Development Studies II",
@@ -2666,7 +2666,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course covers computer networking concepts."
+                    "description": "This course covers history of philosophy covering critical thinking and ethical reasoning."
                 },
                 {
                     "code": "DLD111",
@@ -3470,7 +3470,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course emphasizes the use of technology."
+                    "description": "Introduction to library resources, study skills, and ICT tools for academic success and professional development."
                 },
                 {
                     "code": "GST111",
@@ -3481,7 +3481,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course focuses on writing, speaking, and listening."
+                    "description": "Fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {
                     "code": "EDS111",
@@ -3646,7 +3646,7 @@
                     "credits": 2,
                     "prerequisites": ["GST111"],
                     "career_relevance": [],
-                    "description": "This course focuses on writing, speaking, and listening."
+                    "description": "Advanced fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {   "code": "GST122",
                     "title": "Communication in French",
@@ -4580,7 +4580,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course emphasizes the use of technology."
+                    "description": "Introduction to library resources, study skills, and ICT tools for academic success and professional development."
                 },
                 {
                     "code": "GST111",
@@ -4591,7 +4591,7 @@
                     "credits": 2,
                     "prerequisites": [],
                     "career_relevance": [],
-                    "description": "This course focuses on writing, speaking, and listening."
+                    "description": "Fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {
                     "code": "EDS111",
@@ -4756,7 +4756,7 @@
                     "credits": 2,
                     "prerequisites": ["GST111"],
                     "career_relevance": [],
-                    "description": "This course focuses on writing, speaking, and listening."
+                    "description": "Advanced fundamentals of effective communication in English, including writing, speaking, and presentation skills."
                 },
                 {   "code": "GST122",
                     "title": "Communication in French",
