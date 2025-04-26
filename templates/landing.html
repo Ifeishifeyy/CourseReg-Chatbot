@@ -1,0 +1,27 @@
+<div class="chat-container">
+    <div class="chat-header">
+        <span class="close-btn">&times;</span>
+        Y'ello 👋!
+    </div>
+    <div class="chat-content">
+        <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="Zigi Avatar">
+        <p>I'm Zigi, your MTN online assistant 👩‍💻. What can I help you with today?</p>
+        <p>I'm here and happy to assist 🙂.</p>
+    </div>
+    <div class="chat-actions">
+        <button onclick="reloadBaseHTML()" class="start-chat-btn">Start a New Conversation</button>
+    </div>
+</div>
+
+<script>
+    document.querySelector('.close-btn').addEventListener('click', function() {
+        const mtnChatContainer = document.querySelector('.mtn-chat-container');
+        const courseRegChat = document.querySelector('.chatbox');
+        if (mtnChatContainer) {
+            mtnChatContainer.style.display = 'none';
+        }
+        if (courseRegChat) {
+            courseRegChat.classList.remove('hidden');
+        }
+    });
+</script>

@@ -6,24 +6,28 @@
         "Hi",
         "Hey",
         "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "wagwan?",
+        "What's up?",
+        "Howdy",
+        "Hola",
+        "Hello there",
+        "whats good",
+        "I greet you",
+        "Yoooooooooooooooo",
+        "yoo",
+        "hey there",
+        "heyy",
+        "heyyo"
+
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Welcome! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Greetings! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hello! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hi there! I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program.",
+        "Hey, I am the Course Registration Advisor Chatbot. To assist you better, please tell me your level, program."
       ]
     },
     {
@@ -32,52 +36,210 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "course_details",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Tell me about this course",
+        "What is this course about?",
+        "Can you explain this course?",
+        "What does this course cover?",
+        "Details about the course",
+        "Explain MAT412",
+          "Tell me about CSC211"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "This course covers various topics related to...",
+        "In this course, you'll learn about...",
+        "The course focuses on key concepts such as...",
+        "You'll explore topics like... in this course.",
+        "The curriculum includes modules on...",
+        "This course is designed to teach you...",
+        "You'll gain knowledge in areas such as...",
+        "The course offers a comprehensive overview of...",
+        "By the end of this course, you'll understand...",
+        "This course dives into subjects like...",
+        "You'll study important aspects of... in this course.",
+        "This course is all about...",
+        "This course is perfect for you if you are interested in...",
+        "The course content includes..."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "getstudentinfo",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "I am in my freshman year",
+        "I am currently in 100-level",
+        "I am a first-year student",
+        "I'm in 100-level",
+        "I just started university",
+        "I am a freshman",
+        "I am in my first year of college"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "What course are you studying?"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "prerequisite_query",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What are the prerequisites for this course?",
+        "Do I need any prerequisites for this course?",
+        "What do I need to know before taking this course?",
+        "Are there any prerequisites?",
+        "What should I know before enrolling?",
+        "What are the requirements for this course?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "The prerequisites for this course include...",
+        "You need to have completed... before taking this course.",
+        "To take this course, you should know about...",
+        "Before you enroll in this course, you should be familiar with...",
+        "You must have completed... as a prerequisite."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "units_offered",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "How many units am I offering this semester?",
+        "How many units are offered this semester?",
+        "What is the total unit load for this semester?",
+        "Total units this semester?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Let me check your current semester's course load."
+      ]
+    },
+    {
+      "tag": "elective_count",
+      "patterns": [
+        "How many electives can I offer?",
+        "How many elective courses can I take?",
+        "Number of electives allowed?"
+      ],
+      "responses": [
+        "Let me check the number of electives you can take."
+      ]
+    },
+    {
+      "tag": "prerequisite_failure",
+      "patterns": [
+        "If I fail a prerequisite course, can I take the next?",
+        "Can I take a course if I failed its prerequisite?",
+        "Failed prerequisite, can I continue?",
+        "Prerequisite failure consequences?"
+      ],
+      "responses": [
+        "Let me check the policy on failing prerequisites."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses am I offering this semester?",
+        "List my courses for this semester.",
+        "Courses I'm taking this semester?",
+        "My current semester courses?"
+      ],
+      "responses": [
+        "Let me retrieve the list of courses you are offering this semester."
+      ]
+    },
+    {
+      "tag": "siwes_registration",
+      "patterns": [
+        "Am I supposed to do course registration during SIWES?",
+        "I am on IT. Do I still need to do course registration"
+      ],
+      "responses": [
+        "Yes, you still need to complete your course registration through the school's official portal."
+      ]
+    },
+    {
+      "tag": "easyCourses",
+      "patterns": [
+        "Which course is a sure A?",
+        "Which elective is easy?"
+      ],
+      "responses": [
+        "As for getting an easy A, that really depends on your interests and strengths! Generally, electives that align with your natural skills or hobbies tend to be easier. You can ask seniors for tips"
+      ]
+    },
+    {
+      "tag": "probation",
+      "patterns": [
+        "What is Probation like?"
+      ],
+      "responses": [
+        "Probation is .."
+      ]
+    },
+    {
+      "tag": "courseReg",
+      "patterns": [
+        "How do I register my courses?",
+        "How do I do my course registration?"
+      ],
+      "responses": [
+        "To do your course registration, .."
+      ]
+    },
+    {
+      "tag": "maxUnits",
+      "patterns": [
+        "What is the highest number of unit I can take in one semester?"
+      ],
+      "responses": [
+        "In a semester, a student is allowed to take up to .."
+      ]
+    },
+    {
+      "tag": "carryover",
+      "patterns": [
+        "As a carryover student, how do I register this course?"
+      ],
+      "responses": [
+        "To do your course registration, .."
+      ]
+    },
+    {
+      "tag": "resetCourseReg",
+      "patterns": [
+        "How do I reset my course registration?",
+        "How to course registration reset?"
+      ],
+      "responses": [
+        "To reset your course registration, .."
+      ]
+    },
+    {
+      "tag": "elective_outside_department",
+      "patterns": [
+        "Can I take an elective outside my department?",
+        "Electives from other departments?",
+        "External department electives?",
+        "Cross-department electives?"
+      ],
+      "responses": [
+        "Let me check the policy on taking electives from other departments."
+      ]
+    },
+    {
+      "tag": "elective_recommendation",
+      "patterns": [
+        "What courses should I take?",
+        "Recommend courses for me",
+        "Can you suggest some courses?",
+        "Which courses are best for me?",
+        "what electives should I pick?",
+        "I need help choosing courses",
+        "Help me pick courses",
+        "What are the recommended courses?"
+      ],
+      "responses": [
+        "Based on your program, I recommend...",
+        "Here are some courses that align with your interests:...",
+        "Based on your interests, I suggest...",
+        "These courses are tailored to your program requirements:...",
+        "I recommend taking courses like..."
       ]
     }
   ]
