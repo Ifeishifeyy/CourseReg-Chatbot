@@ -1,5 +1,4 @@
 import nltk
-nltk.download('punkt')
 import json
 import random
 import torch
@@ -8,6 +7,10 @@ from model import NeuralNet
 from datetime import datetime
 from nltk_utils import bag_of_words, tokenize
 
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
