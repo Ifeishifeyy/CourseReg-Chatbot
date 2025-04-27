@@ -255,7 +255,7 @@ def recommend_electives(program, level,career_choice=None,option=None):
             if recommended_electives:
                 return (
                     f"Based on your career choice, here are the best electives for you:\n"
-                    f"{'\n'.join(recommended_electives)}"
+                    '\n'.join(recommended_electives)
                 )
             else:
                 return f"No electives found that align with your career choice ({career_choice}).While no electives specifically align with your career choice, consider choosing an elective that interests you personally. I can provide you with more information about the available electives if you'd like."
