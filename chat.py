@@ -7,12 +7,8 @@ from model import NeuralNet
 from datetime import datetime
 from nltk_utils import bag_of_words, tokenize
 
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
+
+nltk.data.path.append('./nltk_data')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
