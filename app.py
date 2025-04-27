@@ -5,12 +5,7 @@ from chat import get_response
 import json
 import secrets
 
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('omw-1.4')
-    nltk.download('wordnet')
+nltk.data.path.append('./nltk_data')
 
 app = Flask(__name__)
 CORS(app)
@@ -24,7 +19,7 @@ def index_get():
     return render_template('base.html')
 
 
-@app.post("/predict")
+
 @app.post("/predict")
 def predict():
     data = request.get_json()
