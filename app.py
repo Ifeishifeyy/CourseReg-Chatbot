@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt')
 from flask import Flask, render_template, request, jsonify, session
 from flask_cors import CORS
 from chat import get_response
