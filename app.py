@@ -9,6 +9,8 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
+    nltk.download('omw-1.4')
+    nltk.download('wordnet')
 
 app = Flask(__name__)
 CORS(app)
