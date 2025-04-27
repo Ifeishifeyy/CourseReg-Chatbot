@@ -11,6 +11,8 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
