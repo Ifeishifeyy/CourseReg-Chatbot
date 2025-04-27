@@ -1,0 +1,7 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pyzmq
+  Downloading pyzmq-26.4.0-cp313-cp313-win_amd64.whl.metadata (6.0 kB)
+Downloading pyzmq-26.4.0-cp313-cp313-win_amd64.whl (640 kB)
+   --------------------------------------- 640.4/640.4 kB 21.5 kB/s eta 0:00:00
+Installing collected packages: pyzmq
+Successfully installed pyzmq-26.4.0
