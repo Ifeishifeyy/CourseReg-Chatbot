@@ -2,16 +2,8 @@ import nltk
 import numpy as np
 from nltk.stem.porter import PorterStemmer
 
-nltk.data.path.append('/opt/render/nltk_data')
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-    nltk.download('omw-1.4')
-    nltk.download('wordnet')
-
+nltk.data.path.append('./nltk_data')
 stemmer = PorterStemmer()
-
 
 def tokenize(sentence):
     """
