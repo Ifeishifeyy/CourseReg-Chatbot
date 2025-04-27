@@ -9,6 +9,6 @@ pip install -r requirements.txt
 mkdir -p nltk_data
 
 # Download NLTK data (punkt only)
-python3 -m nltk.downloader punkt -d ./nltk_data
+python3 -m nltk.downloader punkt punkt_tab -d ./nltk_data
 
 echo "Build script finished!"
